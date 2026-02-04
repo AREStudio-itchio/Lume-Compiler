@@ -5,6 +5,7 @@
 El Conversor examina tu HTML, detecta las dependencias (CSS, JS) y las incrusta en el HTML y genera un uri.txt, este contiene todo tu código convertido, si quieres probarlo desde el navegador, solo copia este contenido y lo pegas en la URL. Debería correr tal cual tu página como si fuese una página normal.
 
 # Lume
+***PD: Recuerda que el recurso debe ser el número 101, con el tipo RCDATA y el valor debe ser el archivo, no su contenido, si no el propio archivo.***
 Lume usa el conversor para generar el uri.txt, con el compilador compilas el EXE con el código de lume y con el RC (compilado a RES, o si usas G++, O) consigues una app autocontenida que contiene todo lo necesario para ser ejecutado en cualquier ordenador, sin carpetas ni archivos externos.
 
 # Configuración
